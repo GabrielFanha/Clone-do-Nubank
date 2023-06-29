@@ -6,7 +6,7 @@ export default function Header() {
   const name = "Gabriel Lara Fanha"
 
   return (
-    <View className="flex-1 flex-col bg-[#8A19D6] max-h-[200px] w-screen rounded-t-lg items-start justify-center pt-[80px] pl-6 pr-6 pb-6">
+    <View className="flex-1 flex-col bg-[#8A19D6] max-h-[200px] w-screen items-start justify-center pt-[80px] pl-6 pr-6 pb-6">
       <View className="flex flex-row w-screen justify-between items-center">
         <View className="p-3 bg-[#9c3bdc] rounded-full">
           <Icon name="user" size={30} color="#FFF" />
@@ -18,9 +18,7 @@ export default function Header() {
           <Icone name="envelope-o" size={24} color="#FFF" />
         </View>
       </View>
-      <Text className="mt-10 text-white font-bold text-lg font-sans">
-        Óla, {name}
-      </Text>
+      <Text className="mt-10 text-white font-bold text-lg">Óla, {name}</Text>
     </View>
   )
 }

@@ -11,7 +11,7 @@ export default function CardCarton() {
           className="text-black dark:text-white"
         />
       </View>
-      <Text className="pl-4 ">Caixinha</Text>
+      <Text className="pl-4 font-semibold text-base">Caixinha</Text>
     </TouchableOpacity>
   )
 }

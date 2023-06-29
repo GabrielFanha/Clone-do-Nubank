@@ -3,7 +3,7 @@ import Icon from "react-native-vector-icons/AntDesign"
 import Icone from "react-native-vector-icons/FontAwesome"
 
 export default function Header() {
-  const name = "Gabriel Lara Fanha"
+  const name = "Gabriel"
 
   return (
     <View className="flex-col bg-[#8A19D6] max-h-[200px] w-screen items-start justify-center pt-[80px] pl-6 pr-6 pb-6">

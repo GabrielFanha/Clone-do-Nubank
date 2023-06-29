@@ -8,7 +8,7 @@ export default function ScrollNav() {
     <ScrollView
       horizontal={true}
       showsHorizontalScrollIndicator={false}
-      className="flex-1 gap-3 pl-6 max-h-28"
+      className="gap-3 pl-6 max-h-28"
     >
       <View className="flex items-center gap-1">
         <View className="flex items-center justify-center rounded-full bg-[#f0f1f5] w-16 h-16">

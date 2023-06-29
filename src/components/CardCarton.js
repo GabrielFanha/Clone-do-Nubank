@@ -3,7 +3,7 @@ import Icon from "react-native-vector-icons/MaterialIcons"
 
 export default function CardCarton() {
   return (
-    <TouchableOpacity className="flex m-6 bg-[#f0f1f5] h-14 w-[340px] rounded-xl p-4 flex-row items-center">
+    <TouchableOpacity className="flex m-6 bg-[#f0f1f5] h-14 w-[368px] rounded-xl p-4 flex-row items-center">
       <View>
         <Icon
           name="payments"
